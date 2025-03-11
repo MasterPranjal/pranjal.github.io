@@ -5,8 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhD Progress Tracker</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+        
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Nunito', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        nav {
+            text-align: center;
+            background: #3498db;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #2980b9;
+            border-radius: 5px;
+        }
+        section {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
         table {
             width: 100%;
@@ -14,13 +48,18 @@
             margin-bottom: 20px;
         }
         table, th, td {
-            border: 1px solid #000;
+            border: 1px solid #ccc;
         }
         th, td {
-            padding: 10px;
+            padding: 12px;
             text-align: left;
         }
         th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
             background-color: #f2f2f2;
         }
     </style>
@@ -28,193 +67,97 @@
 <body>
 
 <h1>PhD Progress Tracker</h1>
+<p style="text-align: center; font-style: italic; color: #555;">Using 'Nunito' font for a more pleasant and readable experience.</p>
 
-<table>
-    <thead>
-        <tr>
-            <th>Task</th>
-            <th>Sub-Tasks/Steps</th>
-            <th>Status</th>
-            <th>Before July 2024</th>
-            <th>Q3 2024 (July-Sept)</th>
-            <th>Q4 2024 (Oct-Dec)</th>
-            <th>Q1 2025 (Jan-Mar)</th>
-            <th>Q2 2025 (Apr-Jun)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Data Collection / Field Work</td>
-            <td>Initial Visit to Cardiff Makerspace, Hackspace, Swansea, and Bristol Repair Cafés (Completed)</td>
-            <td>Completed</td>
-            <td>Completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Meet with Cardiff technicians and repairers for hands-on problem-solving insights</td>
-            <td>Completed</td>
-            <td>Completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Plan and execute subsequent visits for data collection from Repair Cafés in Swansea, Cardiff, and Bristol</td>
-            <td>In Progress</td>
-            <td>—</td>
-            <td>Planning complete</td>
-            <td>Begin data collection</td>
-            <td>Data collection ongoing</td>
-            <td>Complete data collection</td>
-        </tr>
-        <tr>
-            <td>Methodology Development</td>
-            <td>Co-design methodology discussion and feedback from Cardiff professor</td>
-            <td>Completed</td>
-            <td>Completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Further refinement based on ongoing feedback</td>
-            <td>In Progress</td>
-            <td>—</td>
-            <td>—</td>
-            <td>Methodology refined</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Literature Review</td>
-            <td>Thematic analysis of the literature related to repair and HCI</td>
-            <td>In Progress</td>
-            <td>Initial analysis completed</td>
-            <td>Analysis ongoing</td>
-            <td>Continue analysis</td>
-            <td>Finalize analysis</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Continue thematic analysis and expand literature coverage</td>
-            <td>In Progress</td>
-            <td>Analysis ongoing</td>
-            <td>Continue analysis</td>
-            <td>Finalize thematic analysis</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Ethics Updates</td>
-            <td>Update ethics documentation to reflect recent developments in fieldwork</td>
-            <td>In Progress</td>
-            <td>—</td>
-            <td>Ethics updates completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Novelty Validation</td>
-            <td>Identify and refine the project novelty</td>
-            <td>Completed</td>
-            <td>Completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Validate novelty through expert feedback and field validation</td>
-            <td>In Progress</td>
-            <td>—</td>
-            <td>Start validation</td>
-            <td>Continue validation</td>
-            <td>Complete validation</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Paper Writing</td>
-            <td>Short paper on initial fieldwork from Bristol Repair Café</td>
-            <td>Completed</td>
-            <td>Completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Paper on thematic analysis</td>
-            <td>In Progress</td>
-            <td>Writing initiated</td>
-            <td>Continue writing</td>
-            <td>Paper nearing completion</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Future paper on findings and data collection</td>
-            <td>Planned</td>
-            <td>—</td>
-            <td>—</td>
-            <td>Writing begins</td>
-            <td>Writing ongoing</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Skill Development</td>
-            <td>Training in coding, academic writing, and digital note organisation</td>
-            <td>Ongoing</td>
-            <td>Training ongoing</td>
-            <td>Training ongoing</td>
-            <td>Training ongoing</td>
-            <td>Training ongoing</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Workshops and Presentations</td>
-            <td>Rehearse DC presentation, setup BT toolkit</td>
-            <td>Completed</td>
-            <td>Completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Attend and present at EICS Conference</td>
-            <td>Completed</td>
-            <td>Completed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>India HCI 2024 Workshop (November)</td>
-            <td>Plan and organise the workshop</td>
-            <td>In Progress</td>
-            <td>Workshop preparation</td>
-            <td>Workshop executed</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-    </tbody>
-</table>
+<nav>
+    <a href="#research">Research Progress</a>
+    <a href="#publications">Publications</a>
+    <a href="#data">Data Collection</a>
+    <a href="#skills">Skill Development</a>
+    <a href="#conferences">Conferences & Networking</a>
+    <a href="#teaching">Teaching & Mentoring</a>
+    <a href="#reflections">Challenges & Reflections</a>
+</nav>
+
+<section id="research">
+    <h2>1. Research Progress</h2>
+    <p>Overview of research activities, findings, and methodology updates.</p>
+</section>
+
+<section id="publications">
+    <h2>2. Publications</h2>
+    <p>Details on published papers, conference presentations, and upcoming submissions.</p>
+</section>
+
+<section id="data">
+    <h2>3. Data Collection & Fieldwork</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Sub-Tasks/Steps</th>
+                <th>Status</th>
+                <th>Before July 2024</th>
+                <th>Q3 2024</th>
+                <th>Q4 2024</th>
+                <th>Q1 2025</th>
+                <th>Q2 2025</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Initial Visits</td>
+                <td>Cardiff Makerspace, Hackspace, Swansea, Bristol Repair Cafés</td>
+                <td>Completed</td>
+                <td>✔</td>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>Follow-up Visits</td>
+                <td>Meet with Cardiff technicians and repairers</td>
+                <td>Completed</td>
+                <td>✔</td>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>Data Collection</td>
+                <td>Visits to Repair Cafés in Swansea, Cardiff, and Bristol</td>
+                <td>In Progress</td>
+                <td>—</td>
+                <td>Planning Complete</td>
+                <td>Begin Data Collection</td>
+                <td>Data Collection Ongoing</td>
+                <td>Complete Data Collection</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="skills">
+    <h2>4. Skill Development</h2>
+    <p>Workshops, training, and new skills learned during the PhD journey.</p>
+</section>
+
+<section id="conferences">
+    <h2>5. Conferences & Networking</h2>
+    <p>Participation in academic conferences, talks, and networking events.</p>
+</section>
+
+<section id="teaching">
+    <h2>6. Teaching & Mentoring</h2>
+    <p>Involvement in teaching, supervising students, and mentoring activities.</p>
+</section>
+
+<section id="reflections">
+    <h2>7. Challenges & Reflections</h2>
+    <p>Reflections on challenges faced and how they were overcome.</p>
+</section>
 
 </body>
 </html>
