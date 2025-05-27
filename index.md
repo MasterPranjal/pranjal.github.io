@@ -5,7 +5,7 @@ title: "PhD Progress Tracker"
 
 # Welcome to the PhD Progress Tracker
 
-Track your PhD progress with ease! Explore the sections below:
+Track PhD progress with ease! Explore the sections below:
 
 - [Research Progress](research.html)
 - [Publications](publications.html)
