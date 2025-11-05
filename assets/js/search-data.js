@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/pranjal.github.io/cv/";
           },
+        },{id: "nav-phd-journey",
+          title: "PhD Journey",
+          description: "Documenting my doctoral research progress",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/pranjal.github.io/phd-tracker/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
