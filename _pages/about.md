@@ -2,19 +2,41 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Researcher, <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Computational Foundry</p>
+    <p>Bay Campus, Swansea University</p>
+    <p>Swansea, UK</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+---
+
+I am a PhD researcher at the Computational Foundry, Swansea University, investigating how tacit knowledge emerges and can be supported in repair communities. My research sits at the intersection of Human-Computer Interaction (HCI), ethnographic methods, and participatory design.
+
+My doctoral work focuses on **capturing tacit knowledge in repair cafés** - those informal community spaces where people come together to fix broken objects. Through ethnographic observation and co-design methods, I explore how expert repair knowledge can be documented, shared, and supported through technological interventions.
+
+## Research Interests
+
+- **Human-Computer Interaction (HCI)** - Understanding how people interact with and through technology
+- **Tacit Knowledge** - Investigating the implicit, experiential knowledge that experts possess
+- **Repair Communities** - Studying grassroots repair movements and their practices
+- **Ethnographic Methods** - Using observational and participatory techniques to understand practice
+- **Participatory Design** - Co-designing technological interventions with community members
+
+## Current Work
+
+I'm currently developing **repair cards** as boundary objects - tools that can bridge expert and novice knowledge in repair contexts. This involves extensive fieldwork in repair cafés, interviews with repair practitioners, and iterative design processes with community stakeholders.
+
+Previously, I have worked on projects related to digital financial services, data privacy in South Asian contexts, and HCI community building. I am passionate about using design research to address real-world challenges in under-resourced contexts.
+
+I am also actively involved in the HCI community in South Asia, co-founding [theUXWhale](http://theuxwhale.com) and contributing to initiatives that strengthen HCI research and education in the region.
+
 
 announcements:
   enabled: true # includes a list of news items
