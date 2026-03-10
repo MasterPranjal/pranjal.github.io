@@ -13,7 +13,7 @@ nav_order: 10
 
 **Date:** Mar 10, 2026 | 12:00 - 13:00 | London (Zoom)
 
-**Meeting Details: Zoom Online**
+**Meeting Details**: Zoom Online
 
 **Reflection:** Gained valuable insights into creating inclusive research environments and the importance of EDI considerations in postgraduate supervision.  # ← REPLACE WITH YOUR OWN REFLECTION
 
