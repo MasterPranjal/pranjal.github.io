@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /training/
-title: Professional Development  # ← CHANGE THIS if you want different title
-description: Training courses and professional development activities  # ← CHANGE THIS description
+title: Training
+description: Professional development and training courses
 nav: true
-nav_order: 7  # ← CHANGE THIS NUMBER if it conflicts with other pages (check your other pages)
+nav_order: 10  
 ---
 
 ## Training & Professional Development
