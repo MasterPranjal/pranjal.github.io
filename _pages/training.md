@@ -15,7 +15,7 @@ nav_order: 10
 
 **Meeting Details**: Zoom Online
 
-**Reflection:** Gained valuable insights into creating inclusive research environments and the importance of EDI considerations in postgraduate supervision.  # ← REPLACE WITH YOUR OWN REFLECTION
+**Reflection:** It’s great to know there are three frameworks and particularly interesting to learn about the EPSRC and UKRIO’s work on EDI visuals and the importance of feeling a sense of belonging.  Overall, it’s reassuring to remember the significance of the PGR voice. 
 
 ---
 
@@ -25,4 +25,5 @@ nav_order: 10
 
 **Course Code:** 2526_AS-400  
 
-**Reflection:** Developed practical skills in structuring and presenting research writing effectively for academic audiences.  # ← REPLACE WITH YOUR OWN REFLECTION
+**Reflection:** I was sleep-deprived and couldn’t pay as much attention as I should have but I still attended. Today’s focus on methodology and methods was particularly useful for me. I need to go through the slides again to understand the tips for my methods section in my thesis. 
+
