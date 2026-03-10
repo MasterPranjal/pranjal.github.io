@@ -44,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/pranjal.github.io/cv/";
           },
-        },{id: "nav-phd-journey",
-          title: "PhD Journey",
-          description: "Documenting my doctoral research progress",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/pranjal.github.io/phd-tracker/";
-          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
@@ -79,7 +72,14 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/pranjal.github.io/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "nav-training",
+          title: "Training",
+          description: "Professional development and training courses",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/pranjal.github.io/training/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
