@@ -11,9 +11,9 @@ nav_order: 10
 
 ### EDI Essentials: A Toolkit for Inclusive Postgraduate Research
 
-**Date:** Mar 10, 2026 | 12:00 PM | London (Zoom)
+**Date:** Mar 10, 2026 | 12:00 - 13:00 | London (Zoom)
 
-**Meeting Details:** ID: 913 5764 1590 | Passcode: 691379  # ← UPDATE WITH YOUR ACTUAL DETAILS
+**Meeting Details: Zoom Online
 
 **Reflection:** Gained valuable insights into creating inclusive research environments and the importance of EDI considerations in postgraduate supervision.  # ← REPLACE WITH YOUR OWN REFLECTION
 
@@ -23,6 +23,6 @@ nav_order: 10
 
 **Date:** Mar 10, 2026 | 10:00-12:00 | Online (Zoom)
 
-**Course Code:** 2526_AS-400  # ← UPDATE WITH ACTUAL COURSE CODE
+**Course Code:** 2526_AS-400  
 
 **Reflection:** Developed practical skills in structuring and presenting research writing effectively for academic audiences.  # ← REPLACE WITH YOUR OWN REFLECTION
